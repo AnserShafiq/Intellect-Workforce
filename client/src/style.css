@@ -1,0 +1,27 @@
+:root{
+    --dosis-font: "Dosis", sans-serif;
+    --montserrat-font: "Montserrat", sans-serif;
+    --blue-font-color: #164688;
+    --red-font-color: #bf2025;
+    --blackish-font-color: #131313;
+}
+*{
+    font-family: var(--montserrat-font);
+}
+body{
+    background-color: #fcfcfc;
+}
+h1{
+    font-family: var(--montserrat-font);
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color: #d6d6d6;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--red-font-color);
+  border-radius: 10px;
+  padding: 10px;
+}

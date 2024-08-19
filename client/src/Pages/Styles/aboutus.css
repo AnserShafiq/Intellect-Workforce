@@ -1,0 +1,173 @@
+/* Section 1 */
+.about-section-1{
+    background-image: url('../../Images/AboutUs/about-1.jpg');
+}
+
+
+.about-section-2{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+.about-content-2{
+    width: 23%;
+    min-height: 14vw;
+    margin-block: 1%;
+    padding: 0% 2% 1%;
+    border-bottom: 1px dashed var(--red-font-color);
+    border-right: 1px dashed var(--red-font-color);
+}
+.about-content-2:last-child{
+    border-right: none;
+}
+.valueIcon{
+    width:5.5vw;
+}
+.valueName{
+    font-size: 1.75vw;
+    margin-top: 2%;
+    letter-spacing: 0.5px;
+}
+.valueDesc{
+    font-size: 1.1vw;
+}
+/* Section 3 */
+.about-section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-pic-side{
+    width: 50%;
+    height: 50vh;
+    max-height: 50vh;
+    overflow: hidden;
+}
+.about-content-3{
+    width: 50%;
+    padding-inline: 2% 4%; 
+}
+/* Section 5 */
+.about-section-5{
+    margin: 0%;
+    height: 55vh;
+    width: 100%;
+    background-image: url('../../Images/Home/home-5.jpg');
+    background-position: left center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content:  flex-end;
+}
+.about-section-5::before{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(270deg, #0f3770 40%, #00000000 80%);
+}
+.about-section-5 .textSection{
+    width: 40%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.4%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media (max-width: 1000px) {
+    /* Section 1 */
+    .about-section-1{
+        background-image: url('../../Images/AboutUs/about-1-mobile.jpg');
+    }
+
+    
+    /* Section 2 */
+    .about-section-2{
+        flex-wrap: wrap;
+        margin-block: 5%;
+    }
+    .about-content-2{
+        width: 40%;
+        margin: 0%;
+        padding: 5% 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 35vh;
+    }
+    .about-content-2:last-child{
+        border: none;
+    }
+    .about-content-2.second{
+        border-right: none;
+    }
+    .about-content-2.third{
+        border-bottom: none;
+    }
+    .valueIcon{
+        width: 20vw;
+    }
+    .valueName{
+        font-size: 5.5vw;
+        font-weight: 500;
+    }
+    .valueDesc{
+        text-align: center;
+        font-size: 4vw;
+    }
+    /* Section 3 */
+    .about-section-3{
+        flex-direction: column;
+    }
+    #section3Part2{
+        flex-direction: column-reverse;
+    }
+    .about-pic-side{
+        width: 100%;
+        height: 35vh;
+        max-height: 35vh;
+    }
+    .about-pic-side img{
+        object-position: center;
+        object-fit: cover;
+        width: 100%;
+    }
+    .about-content-3{
+        text-align: center;
+        width: 90%;
+        margin-block: 3% 5%;
+    }
+    /* Section 5 */
+    .about-section-5{
+        height: 90vh;
+        background-image: url('../../Images/AboutUs/about-5-mobile.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .about-section-5::before{
+        background-image: linear-gradient(0deg, #0f3770 30%, #00000000 60%);
+    }
+    .about-section-5 .textSection{
+        width: 100%;
+        margin-inline: 5%;
+        padding-bottom: 10%;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center  ;
+    }
+    .about-section-5 .textSection .exploreBtn{
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+        padding: 1.5vw 6vw;
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+}

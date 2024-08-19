@@ -1,0 +1,181 @@
+/* Section 1 */
+.js-section-1{
+    background-image: url('../../Images/Jobseekers/js-1.jpg');
+}
+/* Section 2 */
+.js-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-block: 3%;
+}
+.centered-text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.js-section2-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0% 4%;
+    margin: 2% 0%;
+}
+.js-section2-inner:first-child{
+    border-right: 1px dashed var(--red-font-color);
+}
+.inner-section-img{
+    height: 40vh;
+
+}
+.benefits-card-name{
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    color:var(--red-font-color);
+    margin-top: 1%;
+}
+.benefits-card-desc{
+    font-size: 1.1vw;
+    text-align: center;
+    color:var(--blue-font-color);
+    margin-top: 1%;
+}
+/* Section 3 */
+.js-section-3{
+    width: 94%;
+    height: 85vh;
+    background-image: url('../../Images/Jobseekers/js-2.jpg');
+    background-position: center 15%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 1% 7% 4%;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 4%;
+}
+.js-section-3::before{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    border-radius: 30px;
+    background-color: #1645887b;
+    /* background-image:linear-gradient(180deg, var(--red-font-color)20%, var(--blue-font-color) 80%) ; */
+}
+.js-section-3 h1{
+    z-index: 2;
+    font-size: 2.3vw;
+    letter-spacing: 1.25px;
+    font-weight: 700;
+}
+
+/* Section 5 */
+.js-section-5{
+    margin: 0%;
+    height: 55vh;
+    width: 100%;
+    background-image: url('../../Images/Jobseekers/js-3.jpg');
+    background-position: right 25%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content:  flex-end;
+}
+.js-section-5::before{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(270deg, #0f3770 40%, #00000000 80%);
+}
+.js-section-5 .textSection{
+    width: 40%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.4%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media (max-width: 1000px) {
+    /* Section 1 */
+    .js-section-1{
+        background-image: url('../../Images/Jobseekers/js-1.jpg');
+        background-position: 75% center;
+    }
+    /* Section 2 */
+    .js-section-2{
+        flex-direction: column;
+        width: 96%;
+        margin-block: 8%;
+    }
+    .js-section2-inner{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .inner-section-img{
+        height: 25vh;
+    }
+    .benefits-card-name{
+        font-size: 4.6vw;
+    }
+    .benefits-card-desc{
+        text-align: start;
+        font-size: 3.6vw;
+    }
+    /* Section 3 */
+    .js-section-3{
+        height: 55vh;
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 10%;
+        background-image: url('../../Images/Jobseekers/js-2.jpg');
+    }
+    .js-section-3::before{
+        border-radius: 0px;
+    }
+    .js-section-3 h1{
+        font-size: 7vw;
+    }
+    /* Section 5 */
+    .js-section-5{
+        height: 90vh;
+        background-image: url('../../Images/Jobseekers/js-3-mobile.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .js-section-5::before{
+        background-image: linear-gradient(0deg, #0f3770 30%, #00000000 60%);
+    }
+    .js-section-5 .textSection{
+        width: 100%;
+        margin-inline: 5%;
+        padding-bottom: 10%;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center  ;
+    }
+    .js-section-5 .textSection .exploreBtn{
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+        padding: 1.5vw 6vw;
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+}

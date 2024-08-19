@@ -1,0 +1,212 @@
+/* Section 1 */
+.employers-section-1{
+    background-image: url('../../Images/Employers/employers-1.jpg');
+    background-position: center center;
+}
+.employers-section-1::before{
+    background-image:linear-gradient(270deg, #00000000 40%, #092f6954 75%) ;
+}
+.contract-btn{
+    width: fit-content;
+    font-size: 1.25vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 0.35vw 1vw;
+    margin-top: 3%;
+    border-radius: 25px;
+    background-color: #ffffff54;
+    border: 2px solid #fcfcfc;
+    color: #fcfcfc;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+.contract-btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+/* Section 2 */
+.employers-section-2{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-block: 4%;
+}
+.employers-section2-inner{
+    max-width: 45%;
+    margin-inline: 2.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.subHead{
+    font-size: 1vw;
+    color:var(--red-font-color);
+}
+.emp-card{
+    width: 45%;
+    padding: 5%;
+    margin: 2% auto;
+    max-width: 50%;
+    background-color:#e2e9fc;
+    border-radius: 20px;
+}
+.emptyDiv{
+    width: 20%;
+}
+.emp-card-icon{
+    color: var(--red-font-color);
+    width: 5.5vw;   
+}
+.emp-card-name{
+    font-size: 1.2vw;
+    letter-spacing: 0.25px;
+}
+
+/* Section 3 */
+.employers-section-3{
+    width: 94%;
+    height: 85vh;
+    background-image: url('../../Images/Employers/employers-2.jpg');
+    background-position: center 15%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 1% 7% 4%;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 4%;
+}
+.employers-section-3::before{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    border-radius: 30px;
+    background-color: #1645887b;
+    /* background-image:linear-gradient(180deg, var(--red-font-color)20%, var(--blue-font-color) 80%) ; */
+}
+.employers-section-3 h1{
+    z-index: 2;
+    font-size: 2.3vw;
+    letter-spacing: 1.25px;
+    font-weight: 700;
+}
+
+/* Section 5 */
+.employers-section-5{
+    margin: 0%;
+    height: 55vh;
+    width: 100%;
+    background-image: url('../../Images/Employers/employers-3.jpg');
+    background-position: right 25%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content:  flex-start;
+}
+.employers-section-5::before{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(90deg, #0f3770 40%, #00000000 80%);
+}
+.employers-section-5 .textSection{
+    width: 40%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.4%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media (max-width: 1000px) {
+
+    /* Section 1 */
+    .employers-section-1{
+        background-image: url('../../Images/Employers/employers-1-mobile.jpg');
+        background-position:left center;
+    }
+    .employers-section-1::before{
+        background-image:linear-gradient(180deg, #00000000 40%, #092f697b 75%) ;
+    }
+    .contract-btn{
+        margin-inline: auto;
+        font-size: 4.1vw;
+        padding: 1vw 2vw;
+    }
+    /* Section 2 */
+    .employers-section-2{
+        flex-direction: column;
+    }
+    .employers-section2-inner{
+        max-width:92%;
+        margin-bottom: 4%;
+        flex-direction: row;
+    }
+ 
+    .emp-card{
+        width: 48%;
+        max-width: 48%;
+        text-align: center;
+    }
+    .emp-card-icon{
+        width: 15vw;
+        margin-bottom: 3%;
+    }
+    .emp-card-name{
+        font-size: 4.7vw;
+    }
+    .subHead{
+        font-size: 3.25vw;
+    }
+    /* Section 3 */
+    .employers-section-3{
+        height: 55vh;
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 10%;
+        background-image: url('../../Images/Employers/employers-2-mobile.jpg');
+    }
+    .employers-section-3::before{
+        border-radius: 0px;
+    }
+    .employers-section-3 h1{
+        font-size: 7vw;
+    }
+    
+    /* Section 5 */
+    .employers-section-5{
+        height: 90vh;
+        background-image: url('../../Images/Employers/employers-3-mobile.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .employers-section-5::before{
+        background-image: linear-gradient(0deg, #0f3770 30%, #00000000 60%);
+    }
+    .employers-section-5 .textSection{
+        width: 100%;
+        margin-inline: 5%;
+        padding-bottom: 10%;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center  ;
+    }
+    .employers-section-5 .textSection .exploreBtn{
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+        padding: 1.5vw 6vw;
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+}

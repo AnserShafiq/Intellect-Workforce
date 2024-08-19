@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pelagic-talent-431612-u8",
+  "private_key_id": "278c5cdb21e92bcc38fac86ed040a6d4c6054ddf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpcgql0+AEIIlr\nq9JG/zDMG/VAleZFHLwncpm/WbWkD1RTM8DLVO5wi2e/qbiaoxpEscCHy+X0zeJi\nwtZrmZlBYTG0k23xk0uqxg2R+0HfDsBtk7y3HbU4PftA69mivVXJtDJoxyUMRk6Y\nyw7aD3Nw6pWKCfbz3WjGLiU8LyIMwO6+SqNtGK58aXd2g96ZaUMC3zQOxx2JBcwJ\nX6h6KgEhq2G7XQgV5bVssuIfk9H1iQ9hqvlXtLNZWwR83d/cQqOEOCx6VaMFXBCw\ndmM2UnErK2bsVPMO/SbDUlR8SSdiuTQh332wpnzvz1Kf9KYjZIk8DziJvJ85V5m6\nUhqIKKIRAgMBAAECggEALEIrYdELrEhLXKJOlFjHiCitUKdWtCqjQrJ+Uiq+dRHD\n9s+HxhRzC1Z+TOOp4kpD7Dl5jn7Fm8HDJgS6OPSvwRIAB6iSiQzuMLb2iHDWbcrO\nnFCAdFwAH6ag3/46pHVL2RmGKTQLCz+5+9LeGDr87jt3v8yGgoAMg+c9tpChFi9J\ndV3LS7hVmrrTPli1yK95ob5QPk1EeSaPJTOwrmbYyOuVeXLpkYGubTWEJgxQlngI\nFk1GC93nBKm9M3vcH1W1oXUOMODddHINLcVReu4MPZnbq1RfFyhpwrpQXYmFpnOk\nzHAv/CYpdEE5w+xqwrxZtpe73E8/eqcB4DtkBQSCGQKBgQDjQl6xsROHKIWt4+BR\ngwWRKRGoVs+np4H2CBEszl2ooFsMqOa1ZvYfRGkmuH2n/Wfkt+tu2hgvYTTKbX8/\nLx42xHSkE2bFL9sJLmIgQsmf07fgBsCHHuFhBr1r7KH/BhVK9gnfxZ1yv2nwe6RI\nE+dai4AgcweH7PHrL4L9ulcD4wKBgQC+3+wN08Yz/l7eGn2u3WwBRgxTv2vrJuQN\nV51MO347nZLBsJ7lS8ubFEdwRnKi4kGNCD5atRC7kEpUisM4klDEVo9YVm/VaODO\nj+Pg17mksPDNE/CRc7/+o20cm1l2qq+lksUhTtAgfuZTQmaUkbsHlUoOEXTgmC6U\nYd+HhFJsewKBgDTqk1oUvVNPYDEpSmYwd+9g/LeR3zBOlLhREI66TpyhGhJMkcvT\neaO2LjXR55BiNPrQyIU7Sz5dCAnKjUKNGh/uhqpdyiRIDFyK7FZOttv8VGhZqiLM\nUfZht2GV6/KR3AtkVtBAF3VMlMJmR85wtAIlUWQ85JgF2B7HJV0nMnO5AoGBAKLH\nL/Yyzmr02U6sZNbFuh/z7vtU2eH2jrHaMCkc63BH1yobR8bgNskQKERVr9m8/o4Z\no6OTmqt6SAmFNSt/jCWEdEavoDvtbxp5l6reDlGnHBSolpZUkj3EfX7R9R/APH8F\nhdv77H5p+l6y1+yHw2qaJEePF4+Z+M9OEGTvsaMVAoGAEWrZnTP+0mhjidSWAwin\nGe9xaMYMP8IRWj8JFZpfXNuK2sNwT9y1Ud/ipksMs2KbInb6xqTYeC50ZZeFVFtr\nJmSP1f9d/FlRmQxN2Wav5s7V3Yeo5jyeiWNpn/qFOpX4ZGO5VYmxoO2PMGksrbzN\n7m1aWpD8LxK9J3kkI35PuIA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-443@pelagic-talent-431612-u8.iam.gserviceaccount.com",
+  "client_id": "106688132097018036781",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-443%40pelagic-talent-431612-u8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,86 @@
+.rs-section-4{
+    display: flex;
+    width: 100%;
+    height:fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.steps-division{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block: 1% 3%;
+}
+.step-card{
+    max-width: 18%;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center ;
+    text-align: center;
+    background-color: #e2e9fc;
+    padding: 1% 2%;
+}
+.step-card-js{
+    max-width: 18%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center ;
+    text-align: center;
+    background-color: #e2e9fc;
+    padding: 1% 2%;
+}
+.step-card:first-child, .step-card-js:first-child{
+    width: 89%;
+    height: fit-content;
+    max-width: 89%;
+    margin-inline: 5.5%;
+    margin-bottom: 2%;
+}
+.step-number{
+    color: var(--red-font-color);
+    font-family: 'dosis', sans-serif;
+    font-weight: 900;
+    font-size: 2.3vw;
+    text-transform: uppercase;
+    font-style: oblique;
+    letter-spacing: 0.75px;
+}
+.step-name{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: var(--blue-font-color);
+}
+.step-description{
+    font-size: 0.9vw;
+    text-transform: capitalize;
+}
+@media (max-width: 1000px) {
+    .steps-division{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .step-card, .step-card:first-child, .step-card-js, .step-card-js:first-child{
+        width: 90%;
+        max-width: 90%;
+        height: fit-content ;
+        margin-block: 2%;
+        align-items: flex-start;
+        text-align: start;
+        padding: 5%;
+    }
+    .step-number{
+        font-size: 7vw;
+    }
+    .step-name{
+        font-size: 4.75vw;
+    }
+    .step-description{
+        font-size: 3.8vw;
+    }
+}

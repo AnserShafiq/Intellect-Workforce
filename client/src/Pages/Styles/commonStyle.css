@@ -1,0 +1,161 @@
+.container-size {
+    height: fit-content;
+    width: 100%;
+    margin-inline: auto;
+}
+.capatalizedStyle{
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.normalTextStyle{
+    color: var(--blackish-font-color);
+    font-size: 1.1vw;
+    letter-spacing: 0.75px;
+    line-height:1.5rem;
+}
+.sideBtn{
+    width: fit-content;
+    font-size: 1.4vw;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    border:none;
+    background-color: var(--red-font-color);
+    color: #fcfcfc;
+    transition: transform 0.3s ease-in-out;
+}
+.colorBtnRed{
+    background-color: var(--red-font-color);
+    color: #fcfcfc;
+    transition: transform 0.3s ease-in-out;
+}
+.colorBtnRed:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.colorBlue{
+    color: var(--blue-font-color);
+}
+.colorWhite{
+    color: #fcfcfc !important;
+}
+.colorBlack{
+    color: var(--blackish-font-color);
+}
+.colorRed{
+    color: var(--red-font-color);
+}
+
+.wd-65{
+    width: 65%;
+}
+.wd-35{
+    width:35%;
+}
+.wd-100{
+    width: 100%;
+}
+.wd-30{
+    width: 30%;
+}
+.hideOnMobile{
+    display: unset !important;
+}
+.hideOnDesktop{
+    display: none !important;
+}
+.subPagesHead{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0.5% auto;
+    padding-inline: 3%;
+    padding-top: 21vh;
+    width: 98%;
+    height: 82vh;
+    border-radius: 30px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subPagesHead::before{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    border-radius: 30px;
+    background-image:linear-gradient(270deg, #00000000 40%, #092f697b 75%) ;
+}
+.subPageHead-content{
+    width: 45%;
+    z-index: 2;
+}
+.underConstructionPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    height: 100vh;
+}
+.underConstructionPage img{
+    width: 13vw;
+    margin-bottom: 1%;
+}
+@media (max-width: 1000px) {
+    .capatalizedStyle{
+        font-size: 6.75vw;
+        line-height: 1.8rem;
+        letter-spacing: 0.25vw;
+    }    
+    .normalTextStyle{
+        font-size: 4.5vw;
+        font-weight: 500;
+        line-height: 1.4rem;
+    }
+    .sideBtn{
+        margin-inline: auto;
+        font-size: 5.5vw ;
+        letter-spacing: 0.5vw;
+    }
+    .wd-65{
+        width: 100%;
+    }
+    .wd-30{
+        width: 100%;
+    }
+    .hideOnMobile{
+        display: none !important;
+    }
+    .hideOnDesktop{
+        display: flex !important;
+    }
+    .subPagesHead{
+        width: 94%;
+        height: 86vh;
+        justify-content: center;
+        align-items: flex-end;   
+        background-size: cover;
+    }
+    .subPagesHead::before{
+        background-image:linear-gradient(180deg, #00000000 40%, #092f697b 75%) ;
+    }
+    .subPageHead-content{
+        width: 94%;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+
+}

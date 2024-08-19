@@ -1,0 +1,81 @@
+.industries-section{
+    display: flex;
+    padding: 3% 10%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.positionDown{
+    display: flex;
+    justify-content: flex-end;  
+    margin-top: 10vh;
+    padding-right: 7%;
+}
+.toViewBtn{
+    font-size: 1.2vw;
+    color: var(--red-font-color);
+    font-weight: 600;
+    font-style: oblique;
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+    line-height: 1vh;
+    border-bottom: 2px solid var(--red-font-color);
+    transition: transform 0.3s ease-in-out;
+}
+.toViewBtn:hover{
+    transform: scale(1.05);
+}
+.arrowIcon{
+    font-size: 1.3vw;
+}
+.industries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.industryCard{
+    margin: 2vw 1.5vw 1vw;
+}
+.industryIcon{
+    margin-left: -0.4vw;
+    font-size: 5.5vw;
+    color: var(--blue-font-color);
+}
+.industryCardHead{
+    font-size: 2vw;
+    font-weight: 600;
+}
+@media (max-width: 1000px) {
+    .industries-section{
+        padding: 5%;
+        text-align: center;
+    }
+    .positionDown{
+        display: none;
+    }
+    .industries{
+        text-align: left;
+    }
+    .industryCard{
+        margin: 3% 4%;
+    }
+    .industryIcon{
+        font-size: 17vw;
+    }
+    .industryCardHead{
+        font-size: 5.75vw;
+    }
+    .industryCard .cardTextStyle{
+        font-size: 4.5vw;
+    }
+    .toViewBtn{
+        font-size: 4.5vw;
+        margin-inline: auto ;
+        margin-block: 4%;
+    }
+    .arrowIcon{
+        font-size: 6vw;
+        margin-bottom: 0.5vh;
+    }
+}

@@ -1,0 +1,185 @@
+/* Section 1 */
+.services-section-1{
+    background-image: url('../../Images/Services/service-1.jpg');
+    background-position: center 85%;
+}
+/* Section 2 */
+.services-section-2{
+    margin-block: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.services-section-2 .colorBlackish{
+    margin-bottom: 2%;
+    margin-inline: 10%;
+}
+.service-display{
+    display: flex;
+    max-height: 70vh;
+}
+.service-display.reverseDisplay{
+    flex-direction: row-reverse;
+}
+.service-display .service-img{
+    width: 50%;
+}
+.service-display .service-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.service-display .service-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 3% 1%;
+    text-align: left;
+}
+.service-display .service-description .scrollArea{
+    padding-left: 1.5%;
+}
+.service-type-name{
+    direction: ltr;
+    font-size: 1.75vw;
+    font-weight: 600;
+    color:var(--red-font-color);
+    letter-spacing: 0.5px;
+}
+.service-type-description{
+    direction: ltr;
+    font-size: 1.05vw;
+    font-weight: 400;
+    padding-left: 2%;
+    letter-spacing: 0.5px;
+}
+.service-type-subHead{
+    direction: ltr;
+    font-size: 1.4vw;
+    color: var(--red-font-color);
+    font-weight: 500;
+}
+/* Section 3 */
+.services-section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 3%;
+}
+.industries-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Section 4 */
+.services-section-4{
+    margin: 0%;
+    height: 55vh;
+    width: 100%;
+    background-image: url('../../Images/Services/services-4.jpg');
+    background-position: 120% 80%;
+    background-size: 80%;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:  flex-start;
+}
+.services-section-4::before{
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(90deg, #0f3770 38%, #00000000 80%);
+}
+.services-section-4 .textSection{
+    width: 40%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.4%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    /* Section 1 */
+    .services-section-1{
+        background-image: url('../../Images/Services/service-1-mobile.jpg');
+    }
+    /* Section 2 */
+    .services-section-2{
+        margin-block: 10% 10%;
+    }
+    .services-section-2 .colorBlackish{
+        width: 93%; 
+        margin-bottom: 8%;
+    }
+    .service-display{
+        height: max-content;
+        max-height: max-content ;
+    }
+    .service-display, .service-display.service-display.reverseDisplay{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .service-display .service-img, .service-display .service-description{
+        width: 100%;
+    }
+    .service-type-name{
+        margin-top: 3%;
+        font-size: 6vw;
+    }
+    .service-display .service-description .scrollArea{
+        max-height: max-content;
+    }
+    .service-type-subHead{
+        font-size: 4.3vw;
+    }
+    .service-type-description{
+        font-size: 4vw;
+    }
+    /* Section 03 */
+    .industries-display{
+        flex-direction: column;
+    }
+    /* Section 4 */
+    .services-section-4{
+        height: 90vh;
+        background-image: url('../../Images/Services/services-4-mobile.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .services-section-4::before{
+        background-image: linear-gradient(0deg, #0f3770 30%, #00000000 60%);
+    }
+    .services-section-4 .textSection{
+        width: 100%;
+        margin-inline: 5%;
+        padding-bottom: 10%;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center  ;
+    }
+    .services-section-4 .textSection .exploreBtn{
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+        padding: 1.5vw 6vw;
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+}

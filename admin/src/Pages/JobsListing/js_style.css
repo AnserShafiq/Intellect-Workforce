@@ -1,0 +1,141 @@
+/* Job Listing Page */
+
+/* Job Addition Form */
+.new-list-form{
+    display: flex;
+    padding-block: 2%;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-block:auto;
+}
+.form-body{
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4%;
+}
+
+.formBox-headline{
+    font-weight: 600;
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 0.5%;
+    color: var(--blue-font-color);
+}
+.list-form-body{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.array-entry{
+    display: flex;
+    flex-direction: column;
+}
+.add-line-btn{
+    margin-top: -1%;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.add-line-btn button{
+    width: fit-content;
+    margin-right: 2%;
+    color: var(--red-font-color);
+    background-color: #00000000;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.add-line-btn button:hover{
+    text-decoration: underline;
+}
+.text-entry{
+    min-height: 10vh;
+    overflow:auto;
+}
+.text-entry::-webkit-scrollbar-thumb, .text-entry::-webkit-scrollbar-track{
+    background-color: #00000000;
+}
+.job-submit-btn{
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 1%;
+    font-size: 1.2vw;
+    font-weight: 500;
+    padding: 1.5% 7%;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--red-font-color);
+    color: #fcfcfc;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.job-submit-btn:hover{
+    transform: scale(1.05);
+    border: 3px solid var(--red-font-color);
+    background-color: #A8BBD5;
+    color: var(--red-font-color);
+}
+.entry-field-job{
+    padding: 1% 2%;
+    background-color: rgba(180, 196, 219, 0.797);
+    border: 0px;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    font-size: 1.0vw;
+    font-weight: 500;
+    color: var(--red-font-color);
+}
+.entry-field-job::placeholder{
+    color:#fcfcfcd7;
+}
+
+.applicants-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 99%;
+}
+.applicants-list-head{
+    width: fit-content;
+    font-weight: 600;
+    color: var(--blue-font-color);
+    margin-top: 3%;
+}
+.applicants-list-body{
+    display: flex;
+    flex-direction: column;
+}
+.applicants-list-subhead{
+    display: flex;
+    flex-direction: row;
+}
+.applicants-row-head{
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--blue-font-color);
+    text-align: start;
+}
+.applicants-row-detail{
+    font-size: 1vw;
+    font-weight: 500;
+    color: #1c1c1c;
+    text-align: start;
+    padding-inline: 1% 0.5%;
+    overflow-wrap: anywhere;
+}
+.applicants-row-detail a{
+    color: var(--red-font-color);
+}
+.btns-display{
+    display: flex;
+}
+.btns-display button{
+    margin-right: 2vw;
+}
