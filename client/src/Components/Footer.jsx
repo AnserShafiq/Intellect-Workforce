@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className='footer-child-section'>
                     <Link to='/job-seekers/job-application' className='footerBtnWithIcon withTransBack'>Looking For Jobs?</Link>
                     <Link to='/employers/employees-required' className='footerBtnWithIcon withFilledBack'>Searching For Candidate?</Link>
-                    <a href='tel:+15198574080' className='footerBtnWithIcon sideIcon'><CallIcon className='footerIcon'/>(519) 857 4080</a>
+                    <a href='tel:+16475031221' className='footerBtnWithIcon sideIcon'><CallIcon className='footerIcon'/>(647) 503 1221</a>
                     <a href='mailto:info@intellectworkforce.ca' className='footerBtnWithIcon sideIcon'><MailIcon className='footerIcon'/>info@intellectworkforce.ca</a>
                 </div>
                 <h3 className='footerHeading'>Follow Us</h3>
