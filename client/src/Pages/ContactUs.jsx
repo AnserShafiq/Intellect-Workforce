@@ -28,7 +28,7 @@ const ContactUs = () => {
         <div className='contact-card'>
           <Phone className='card-icon'/>
           <h3 className='card-name'>Phone Number</h3>
-          <a href='tel:+15198574080' className='card-text'>+1 (519) 857 4080</a>
+          <a href='tel:+6475031221' className='card-text'>+1 (647) 503 1221</a>
         </div>
         <div className='contact-card'>
           <Mail className='card-icon'/>
@@ -38,7 +38,7 @@ const ContactUs = () => {
         <div className='contact-card'>
           <Address className='card-icon'/>
           <h3 className='card-name'>Address Line</h3>
-          <a href='tel:+15198574080' className='card-text'>Missisauge, ON, Canada</a>
+          <a href='https://maps.app.goo.gl/jjPyLY4uterF2mjJ9' className='card-text'>Missisauge, ON, Canada</a>
         </div>
       </div>
     </>
